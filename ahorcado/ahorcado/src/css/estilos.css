@@ -1,0 +1,135 @@
+body{
+	margin:0;
+	padding:0;
+}
+.contenedor{
+	display:block;
+	width:454px;
+	height:500px;
+	border:2px solid #000;
+	border-radius:10px;
+	border-color:#7a6;
+	margin-top:80px;
+	margin-left:200px
+}
+.contenedor_letras{
+	float:left;
+	border:1px solid #000;
+	width:200px;
+	height:200px;
+	margin:10px -13px 10px 10px;
+}
+.contenedor_dibujo{
+	float:left;
+	border:1px solid #000;
+	width:222px;
+	height:200px;
+	margin:10px 10px 10px 16px;
+}
+.teclado{
+	float:left;
+	border:1px solid #000;
+	width:188px;
+	height:255px;
+	margin:1px 3px;
+}
+.letra{
+	width: 42px;
+    height: 30px;
+    margin: 1px;
+}
+.controles{
+	float:left;
+	border:1px solid #000;
+	width:257px;
+	height:255px;
+	margin:1px -3px;
+}
+.palabra{
+	float:left;
+	border:1px solid #000;
+	width:254px;
+	height:30px;
+	
+}
+.letra_escondida{
+	float:left;
+	border:1px solid #000;
+	width:21px;
+	height:26px;
+	margin:1px;
+	text-align:center;
+	
+}
+.ganadas{
+	float:left;
+	border:1px solid #000;
+	width:239px;
+	height:50px;
+	margin:1px;
+	
+}
+.texto_ganadas{
+	float:left;
+	border:1px solid #000;
+	width:140px;
+	height:46px;
+	margin:1px;
+	
+}
+.numero_ganadas{
+	float:left;
+	border:1px solid #000;
+	width:90px;
+	height:46px;
+	margin:1px;
+	
+}
+.perdidas{
+	float:left;
+	border:1px solid #000;
+	width:239px;
+	height:50px;
+	margin:1px;
+	
+}
+.texto_perdidas{
+	float:left;
+	border:1px solid #000;
+	width:140px;
+	height:46px;
+	margin:1px;
+	
+}
+.numero_perdidas{
+	float:left;
+	border:1px solid #000;
+	width:90px;
+	height:46px;
+	margin:1px;
+	
+}
+.jugar{
+	float:left;
+	border:1px solid #000;
+	width:239px;
+	height:50px;
+	margin:1px;
+	
+}
+.limpiar{
+	float:left;
+	border:1px solid #000;
+	width:239px;
+	height:50px;
+	margin:1px;
+	
+}
+.espacio_letra{
+	float:left;
+	border:1px solid #000;
+	width:21px;
+	height:20px;
+	margin:1px;
+	text-align:center;
+}

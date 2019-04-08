@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+nav{
+	width:300px;
+	margin:0 auto;
+}
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+nav ul li a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	width:100px;
+	padding:10px 0;
+	background-color:#f06;
+	border-radius:0 0 7px 7px;
+	float:left;
+	transition:0.3s;
+}
+nav ul li a:hover{
+	padding:20px 0 10px;
+	background-color:#f0d;
+}
+.ancho1{
+	width:100px;
+}
+.ancho2{
+	width:200px;
+}
+.ancho3{
+	width:300px;
+}
+.ancho4{
+	width:400px;
+}

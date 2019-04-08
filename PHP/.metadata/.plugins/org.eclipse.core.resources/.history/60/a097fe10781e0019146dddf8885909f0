@@ -1,0 +1,27 @@
+<?php 
+//// arrays asociativos/////
+/*
+ * estan basados en la estructura CLAVE => VALOR
+ */
+$persona=array(
+    'nombre'    => 'Santiago',
+    'apellido'  => 'Fragio',
+    'edad'      => 32,
+);
+////NORMALMENTE LOS VAMOS A UTILIZAR PRA OBTENER SUS VALORES////
+$estudiantes=array('Miguel','Antonio','Santi','Alvaro');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="UTF-8">
+	<title>Ejercicio 4</title>
+</head>
+<body>
+	<p><?php  echo $persona['nombre'];?></p>
+	<ul>
+	<?php foreach($estudiantes as $valor){?>
+	<?php };?>
+	</ul>
+</body>
+</html>

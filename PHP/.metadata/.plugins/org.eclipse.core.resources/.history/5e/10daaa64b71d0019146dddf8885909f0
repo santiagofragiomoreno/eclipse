@@ -1,0 +1,19 @@
+<?php
+//ejemplo de declaracion de un array
+    $estudiantes=array('Alvaro','Santi','María');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="UTF-8">
+	<title>
+	</title>
+	</head>
+<body>
+	<ul>
+	<li>
+	<?php echo $estudiantes[0];?>
+	</li>
+	</ul>
+</body>
+</html>

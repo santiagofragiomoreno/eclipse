@@ -1,0 +1,66 @@
+{
+    "navegacion":[
+        {
+            "item":{
+                "nombre":[
+                    {"texto":"inicio"},
+                    {"texto":"home"}
+                ],
+                "url":""
+            }
+        },
+        {
+            "item":{
+                "nombre":[
+                    {"texto":"uno"},
+                    {"texto":"one"}
+                ],
+                "url":"uno"
+            }
+        },
+        {
+            "item":{
+                "nombre":[
+                    {"texto":"dos"},
+                    {"texto":"two"}
+                ],
+                "url":"dos"
+            }
+        },
+        {
+            "item":{
+                "nombre":[
+                    {"texto":"tres"},
+                    {"texto":"three"}
+                ],
+                "url":"tres"
+            }
+        }
+    ],
+    "paginas":[
+        {
+            "pagina":[
+                {"titulo":"Titulo inicio ES"},
+                {"titulo":"Title home EN"}
+            ]
+        },
+        {
+            "pagina":[
+                {"titulo":"Titulo uno ES"},
+                {"titulo":"Title one EN"}
+            ]
+        },
+        {
+            "pagina":[
+                {"titulo":"Titulo dos ES"},
+                {"titulo":"Title two EN"}
+            ]
+        },
+        {
+            "pagina":[
+                {"titulo":"Titulo tres ES"},
+                {"titulo":"Title three EN"}
+            ]
+        }
+    ]
+}

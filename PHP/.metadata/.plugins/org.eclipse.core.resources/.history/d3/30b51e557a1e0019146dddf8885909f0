@@ -1,0 +1,48 @@
+<?php 
+//// arrays asociativos/////
+/*
+ * estan basados en la estructura CLAVE => VALOR
+ */
+$persona=array(
+    'nombre'    => 'Santiago',
+    'apellido'  => 'Fragio',
+    'edad'      => 32,
+);
+////NORMALMENTE LOS VAMOS A UTILIZAR PRA OBTENER SUS VALORES////
+$estudiantes=array('Miguel','Antonio','Santi','Alvaro');
+
+///////////// funcion array_push /////////////////////
+/*
+ * funcion para añadir un elemento al final 
+ * de un array
+ */
+array_push($estudiantes,'Felipe');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="UTF-8">
+	<title>Ejercicio 4</title>
+</head>
+<body>
+	<p><?php  echo $persona['nombre'];?></p>
+	<h2>Foreach de un array normal</h2>
+	<ul>
+	<?php //foreach--> hazme un for por cada elemento del array que le indiquemos?>
+	<?php foreach($estudiantes as $valor){?>
+	<li>
+	<?php echo $valor;?>
+	</li>
+	<?php };?>
+	</ul>
+	<h2>Foreach de un <b>array asociativo</b></h2>
+	<ul>
+	<?php //foreach--> hazme un for por cada elemento del array que le indiquemos?>
+	<?php foreach($persona as $clave => $valor){?>
+	<li>
+	<?php echo $clave.' '.':'.' '.$valor;?>
+	</li>
+	<?php };?>
+	</ul>
+</body>
+</html>

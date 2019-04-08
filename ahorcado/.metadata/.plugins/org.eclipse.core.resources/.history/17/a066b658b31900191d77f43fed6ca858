@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<title>PRUEBAS</title>
+</head>
+<body>
+	<div class="contenedor">
+		<div class="contenedor_letras">
+		<p>guvihb</p>
+		</div>
+		<div class="contenedor_dibujo">
+		</div>
+		<div class="teclado">
+		<button class="letra">A</button>
+		<button class="letra">B</button>
+		<button class="letra">C</button>
+		<button class="letra">D</button>
+		<button class="letra">E</button>
+		<button class="letra">F</button>
+		<button class="letra">G</button>
+		<button class="letra">H</button>
+		<button class="letra">I</button>
+		<button class="letra">J</button>
+		<button class="letra">K</button>
+		<button class="letra">L</button>
+		<button class="letra">M</button>
+		<button class="letra">N</button>
+		<button class="letra">O</button>
+		<button class="letra">P</button>
+		<button class="letra">Q</button>
+		<button class="letra">R</button>
+		<button class="letra">S</button>
+		<button class="letra">T</button>
+		<button class="letra">U</button>
+		<button class="letra">V</button>
+		<button class="letra">W</button>
+		<button class="letra">X</button>
+		<button class="letra">Y</button>
+		<button class="letra">Z</button>
+		</div>
+		<div class="controles">
+			<div class="palabra">
+				<div class="letra_escondida">
+					<div class="espacio_letra">A</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+				<div class="letra_escondida">
+					<div class="espacio_letra">B</div>
+					<div class="espacio_bajo">_</div>
+				</div>
+			</div>
+			<div class="ganadas">
+				<div class="texto_ganadas">
+				</div>
+				<div class="numero_ganadas">
+				</div>
+			</div>
+			<div class="perdidas">
+				<div class="texto_perdidas">
+				</div>
+				<div class="numero_perdidas">
+				</div>
+			</div>
+			<div class="limpiar">
+			</div>
+			<div class="jugar">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>

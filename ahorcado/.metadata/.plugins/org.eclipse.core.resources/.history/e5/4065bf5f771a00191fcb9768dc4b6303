@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor_principal{
+    width:48%;
+    height: 500px;
+    margin:100px auto;
+    border: 1px solid #000000;
+}
+.contenedor_letras{
+    width:47%;
+    height: 200px;
+    margin:2px 2px;
+    border: 1px solid #000000;
+    float: left;
+}
+.contenedor_dibujo{
+    width:47%;
+    height: 200px;
+    margin:2px 2px;
+    border: 1px solid #000000;
+    float: right;
+}

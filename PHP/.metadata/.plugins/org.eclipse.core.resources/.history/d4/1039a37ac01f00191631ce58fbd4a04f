@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>hola que tal
+	</title>
+</head>
+<body>
+	<div class="fibonacci"></div>
+	<script type="text/javascript">
+		window.onload = function(){
+
+			var fibonacci = []
+			var iteracion = 20000000;
+			var inicio = 1;
+			fibonacci[0]=inicio;
+			fibonacci[1]=inicio;
+
+			for(var i=2; i<iteracion;i++){
+  
+				   fibonacci[i]=fibonacci[i-1]+fibonacci[i-2];
+				   console.log(fibonacci);
+				
+			}
+            /////////OTRA FORMA DE HACERLO//////////////
+            /*
+            var limite = 20;
+
+			for(var i=0; i<limite;i++){
+                   if(i<2){
+	                fibonacci.push(1);
+                   }
+                   else{
+	                fibonacci.push(fibonacci[i-1]+fibonacci[i-2]);
+                   }
+				   
+				   console.log(fibonacci);
+				
+			}
+			
+			*/
+			var contenedor = document.getElementsByClassName('fibonacci');
+            console.log(contenedor);
+			contenedor.innerHTML = fibonacci;
+			console.log(contenedor);
+
+		}
+	</script>
+
+</body>
+</html>

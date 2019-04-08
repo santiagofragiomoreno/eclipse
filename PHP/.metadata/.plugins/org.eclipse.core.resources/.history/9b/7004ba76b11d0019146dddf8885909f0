@@ -1,0 +1,13 @@
+<?php
+
+//concepto de variable ////
+/*
+ * "contenedor de memoria
+ * donde podemos almacenar un valor
+ * y modificarlo a lo largo de la ejecuacion
+ * del programa.
+ *   $nombre_variable = el valor que le queramos dar
+ */
+$edad = 18;
+echo 'edad';
+?>

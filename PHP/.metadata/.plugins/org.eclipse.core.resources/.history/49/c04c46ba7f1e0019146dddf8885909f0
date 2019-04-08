@@ -1,0 +1,34 @@
+<?php
+$nombre='Santi Fragio';
+///////// funcion strlen() //////////
+/*
+ * nos cuenta los caracteres de un string (incluyendo los espacios en blanco)
+ */
+
+////////// funcion explode() ////////////////
+/*
+ * nos convierte un string en un array de tantos elementos como 
+ * tenga el string con el delimitador que le hayamos indicado
+ */
+//$nombre_separado = explode('a', $nombre);
+
+//////////////// funcion implode() /////////////////
+/*
+ * hace lo contrario que explode
+ */
+$nombre_completo = array('Santiago','Fragio');
+
+$nombre_unido = implode('f',$nombre_completo);
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta  charset="UTF-8">
+<title></title>
+</head>
+<body>
+	<p><?php echo strlen($nombre);?></p>
+	<pre><?php print_r($nombre_completo);?></pre>
+	<p><?php echo $nombre_unido;?></p>
+</body>
+</html>

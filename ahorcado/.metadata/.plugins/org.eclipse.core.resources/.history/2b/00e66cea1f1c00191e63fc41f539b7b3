@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor_principal{
+    width:48%;
+    height: 500px;
+    margin:100px auto;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #f5daa3;
+}
+.contenedor_letras{
+    width:47%;
+    height: 200px;
+    margin:2px 2px;
+    border: 1px solid #000000;
+    float: left;
+    border-radius: 10px;
+    background-color: #f6f5f5;
+}
+.letra_aniadida{
+    margin-left: 10px;
+    font-size: 21px;
+    float: left;
+}
+.contenedor_dibujo{
+    width:47%;
+    height: 200px;
+    margin:2px 2px;
+    border: 1px solid #000000;
+    float: right;
+    border-radius: 10px;
+    background-color: #f6f5f5;
+    padding:10px;
+}
+.hangman{
+	line-height:1em;
+	font-size:1.1em;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.hangman0{
+	text-align:left;
+	clear:both;
+}
+.hangman1,.hangman2{
+	clear:both;
+	text-align: center;
+}
+.hangman3{
+	float: left;
+	width:45%;
+	text-align:right;
+}
+.hangman4{
+	float: left;
+	width:10%;
+	text-align:center;
+}
+.hangman5{
+	float: left;
+	width:45%;
+	text-align:left;
+}
+.hangman6{
+	float: left;
+	width:50%;
+	text-align:right;
+}
+.hangman7{
+	float: left;
+	width:50%;
+	text-align:left;
+}
+.clearfix{
+	clear:both;
+}
+.contenedor_teclado{
+    width:47%;
+    height: 288px;
+    margin:2px 2px;
+    border: 1px solid #000000;
+    float: left;
+    border-radius: 10px;
+    background-color: #adf5a4;;
+}
+.letra{
+	width: 42px;
+    height: 32px;
+    margin: 7px;
+    border-radius: 50px;
+}
+.letra:hover{
+    background-color: #c0f6fd;
+}
+.palabra_escondida{
+    width:50%;
+    height: 50px;
+    margin:2px 5px;
+    border: 1px solid #000000;
+    float: right;
+    border-radius: 10px;
+}
+.letra_escondida{
+	float:left;
+	border:1px solid #000;
+	width:21px;
+	height:26px;
+	margin:4px;
+	text-align:center;	
+}
+.espacio_letra{
+	float:left;
+	border:1px solid #000;
+	width:21px;
+	height:20px;
+	margin:1px;
+	text-align:center;
+}
+
+/* medias querys */
+@media (max-width: 1109px){
+    .contenedor_dibujo{
+        width: 46%;
+    }
+}
+@media (max-width: 951px){
+    .contenedor_dibujo{
+        width: 45%;
+    }
+}
+@media (max-width: 832px){
+    .contenedor_dibujo{
+        width: 44%;
+    }
+}
+@media (max-width: 740px){
+    .contenedor_dibujo{
+        width: 43%;
+    }
+}
+@media (max-width: 666px){
+    .contenedor_dibujo{
+        width: 42%;
+    }
+}
+@media (max-width: 605px){
+    .contenedor_dibujo{
+        width: 41%;
+    }
+}

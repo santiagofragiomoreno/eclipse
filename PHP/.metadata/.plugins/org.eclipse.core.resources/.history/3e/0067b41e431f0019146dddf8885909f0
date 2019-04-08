@@ -1,0 +1,17 @@
+<?php
+
+$fibonacci = array();
+$iteracion = 15;
+$inicio = 1;
+$fibonacci[0]=$inicio;
+$fibonacci[1]=$inicio;
+
+for($i=2; $i<$iteracion;$i++){
+    
+    $fibonacci[$i]=$fibonacci[$i-1]+$fibonacci[$i-2];
+    echo $fibonacci[$i];
+    echo ' ';
+    
+}
+
+?>

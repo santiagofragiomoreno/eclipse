@@ -1,0 +1,10 @@
+<?php
+
+$a = 5;
+$b = 8;
+
+if(($a+$b) > 15){
+    echo 'La suma es mayor';
+};
+
+?>

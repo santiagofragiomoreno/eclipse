@@ -1,0 +1,19 @@
+#si existe el modulo rewrite de apache...
+#
+#
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#a partir de aqui le damos las condiciones que necesitemos
+RewriteBase /CEI/tres_colores/
+#donde este el .htaccess
+#ahora le decimos las reglas de re-escritura de la url
+#le decimos que el fichero que se va a encargar de todo es unicamente el index.php
+RewriteRule ^index\.php$ - [L]
+#ahora le damos las condiciones de re-escritura
+RewriteCond %{REQUEST_FILENAME} !-f 
+#si lo que nos escriben es distinto a un fichero en la url
+RewriteCond %{REQUEST_FILENAME} !-d 
+#y si lo que nos esriben es distinto a un directorio en la url
+RewriteRule . /CEI/tres_colores/index.php [L]
+
+</IfModule>

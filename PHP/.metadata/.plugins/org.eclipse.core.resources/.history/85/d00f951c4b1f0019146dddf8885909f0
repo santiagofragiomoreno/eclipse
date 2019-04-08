@@ -1,0 +1,6 @@
+<?php
+$palabra = $_GET['palabra'];
+
+$palabra = explode($palabra);
+print_r $palabra;
+?>

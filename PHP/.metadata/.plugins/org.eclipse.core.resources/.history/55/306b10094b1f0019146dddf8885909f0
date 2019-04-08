@@ -1,0 +1,4 @@
+<?php
+$palabra = $_GET['palabra'];
+echo $palabra;
+?>

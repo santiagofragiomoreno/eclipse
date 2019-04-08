@@ -1,0 +1,19 @@
+<?php 
+//// arrays asociativos/////
+$persona=array(
+    'nombre'    => 'Santiago',
+    'apellido'  => 'Fragio',
+    'edad'      => 32,
+);
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="UTF-8">
+	<title>Ejercicio 4</title>
+</head>
+<body>
+	
+</body>
+</html>

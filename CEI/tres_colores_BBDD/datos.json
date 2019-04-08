@@ -1,0 +1,94 @@
+{
+	"paginas" : [
+		{
+			"pagina" : {
+				"nombre" : [
+					{ "texto" : "inicio" },
+					{ "texto" : "l'accueil" },
+					{ "texto" : "home" }
+				],
+				"url" : ""
+			}
+		},
+		{
+			"pagina" : {
+				"nombre" : [
+					{ "texto" : "azul" },
+					{ "texto" : "bleu" },
+					{ "texto" : "blue" }
+				],
+				"url" : "azul",
+				"titulo" : [
+					{ "texto" : "Azul" },
+					{ "texto" : "Bleu" },
+					{ "texto" : "Blue" }
+				],
+				"copy" : [
+					{ "texto" : "Trois Couleurs: Bleu es un complejo estudio psicológico sobre la libertad (representada por el color azul). La acción se sitúa en París, donde Julie, esposa del célebre compositor Patrice de Courcy, sobrevive a un macabro accidente automovilístico, en el que pierde a su marido y a su pequeña hija, Anna. Durante la convalecencia, intenta suicidarse, sin éxito. Cuando sale del hospital, Julie decide aislarse totalmente del mundo exterior y de los recuerdos de su antigua vida en compañía de su familia: vende su casa, su ropa y todas sus cosas, se distancia de sus amistades, retoma su apellido de soltera (Vignon), se autorrecluye en un diminuto apartamento en la ciudad sin decirlo a nadie y destruye las notas del último encargo a su marido, una pieza clásica inacabada que iba a ser tocada para la celebración de la creación de la Unión Europea.|A pesar de sus deseos autodestructivos, París empuja a Julie a afrontar aspectos del pasado que afloran a la luz, y le impide seguir adelante. Se enamora de Olivier Benoît, el ayudante de su marido (el cual siempre la había amado en secreto), y para empeorar las cosas, descubre que Patrice tenía una amante, llamada Sandrine, la cual está esperando un hijo suyo." },
+					{ "texto" : "Un jeune homme fait de l'auto-stop sur le bord d'une route de campagne. Une voiture passe, sans s'arrêter, et s'encastre contre un arbre au virage suivant. Julie (Juliette Binoche) se réveille à l'hôpital. Le médecin lui apprend qu'elle a perdu son mari dans l'accident, ainsi que sa petite fille de cinq ans. Un ami de son mari, Olivier (Benoît Régent), lui permet de suivre à distance les obsèques depuis l'hôpital grâce à une télévision miniature. Son mari était un compositeur célèbre et il reçoit des hommages publics.|Après avoir tenté de se suicider, Julie décide de faire table rase de son passé et s'enfonce dans une profonde solitude. Elle refuse de parler à une journaliste (Hélène Vincent) qui veut l'interroger sur le devenir de la dernière composition de son mari : le « Concerto pour l'unification de l'Europe ». Le temps d'une nuit, elle a une liaison avec Olivier qui lui avoue être amoureux d'elle depuis toujours. Mais au petit matin, elle le quitte. Elle vend tous les biens de son mari, détruit ses partitions, quitte leur grande maison, donne congé aux domestiques, reprend son nom de jeune fille et s'installe dans un appartement parisien rue Mouffetard. Elle ne garde aucune trace de son passé, sauf un lustre de pierres bleues qu'elle a précieusement gardé de la chambre de sa petite fille. Julie n'a plus que sa mère comme famille, prise en charge dans une maison de retraite, mais celle-ci ne la reconnait plus et la croyant morte, elle la confond avec sa sœur." },
+					{ "texto" : "Julie (Juliette Binoche), wife of the famous composer Patrice de Courcy, must cope with the death of her husband and daughter in an automobile accident she herself survives. While recovering in hospital, Julie attempts suicide by overdose, but cannot swallow the pills. After being released from hospital, Julie, who it is suggested wrote (or helped to write) much of her husband's famous pieces, destroys what is left behind of them. Calling Olivier (Benoît Régent), an unmarried collaborator of her husband's who has always admired her, she spends a night with him and says goodbye. Emptying the family house and putting it up for sale, she takes an apartment in Paris near Rue Mouffetard without telling anyone, her only memento being a mobile of blue beads that the viewer assumes belonged to her daughter.|Julie disassociates herself from all past memories and distances herself from former friendships, even being no longer recognised by her mother, who suffers from Alzheimer's disease. She also reclaims and destroys the unfinished score for her late husband's last commissioned work—a piece celebrating European unity following the end of the Cold War. Snatches of its music, however, haunt her throughout the film." }
+				]
+			}
+		},
+		{
+			"pagina" : {
+				"nombre" : [
+					{ "texto" : "blanco" },
+					{ "texto" : "blanc" },
+					{ "texto" : "white" }
+				],
+				"url" : "blanco",
+				"titulo" : [
+					{ "texto" : "Blanco" },
+					{ "texto" : "Blanc" },
+					{ "texto" : "White" }
+				],
+				"copy" : [
+					{ "texto" : "En Trois Couleurs: Blanc 'Blanco' volvemos a ser testigos de un intimista estudio de personajes, una representación de humanidad que se traslada de París a los fríos y blancos parajes de la Polonia natal de Krzysztof Kieślowski. El tono de esta cinta es sin duda más amable que el de Trois Couleurs: Bleu (Azul), pero no nos equivoquemos: estamos ante una comedia triste, en palabras del propio director; y aunque por momentos nos haga sonreír debido a las disparatadas situaciones que atraviesa Karol (deliciosa e ingenuamente interpretado por Zbigniew Zamachowski), no deja de atenazarnos en ningún momento, pues esa actitud de abandono y desorientación debida a la muerte (o, quizás, debida a la vida) de su anterior obra, pasa a ser aquí un macabro juego relacionado con la propia muerte, una lección de búsqueda de los verdaderos propósitos que nos mueven a hacer lo que hacemos, una historia de amor imposible, retorcida pero a la vez necesaria para dar sentido a los comportamientos que vemos en pantalla.|El tema de la bandera francesa pretende ser la Igualdad en esta cinta, y como igualitaria podemos definir esa intención del personaje principal por encauzar su vida, huyendo de un país que le es extraño y que le impide sentirse dueño de sí mismo para poder cumplir con su mujer. Esta (una fría pero maravillosa Julie Delpy, como una gatita continuamente en celo) lo abandona por no sentirse satisfecha sexualmente, y Karol decide entonces regresar a Varsovia oculto en una maleta, donde comenzará desde cero e irá amasando una fortuna que le permita volver por todo lo alto." },
+					{ "texto" : "À Paris, Dominique obtient le divorce d'avec son mari polonais immigré, Karol, pour mariage non consommé. Dans des conditions rocambolesques, celui-ci regagne la Pologne où, profitant d'un capitalisme débridé, il fait rapidement fortune. Toujours amoureux de Dominique, il se fait passer pour mort dans l'espoir de la revoir. Dans un étrange retour de flammes, Dominique finit en prison en Pologne.|Kieślowski s'intéresse au bouleversement économique qu'a connu la Pologne depuis la chute du Mur de Berlin; il aborde ce thème à travers une histoire d'amour qui évoque les liens entre l'Est et l'Ouest." },
+					{ "texto" : "After opening with a brief, seemingly irrelevant scene of a suitcase on an airport carousel, the story quickly focuses on a Paris divorce court where Karol Karol (Zbigniew Zamachowski) is pleading with the judge — the same legal proceedings that Juliette Binoche's character briefly stumbled upon in Blue. The immigrant Karol, despite his difficulty in understanding French, is made to understand that his wife Dominique (Julie Delpy) does not love him. The grounds for divorce are humiliating: Karol was unable to consummate the marriage. Along with his wife, he loses his means of support (a beauty salon they jointly owned), his legal residency in France, and the rest of his cash in a series of mishaps, and is soon a beggar. He only retains a 2 franc coin.|In a Paris Métro station, performing songs for spare change, Karol meets and is befriended by another Pole, Mikołaj (Janusz Gajos). While Karol has lost his wife and his property, Mikołaj is married and successful; he offers Karol a job consisting of killing someone who wants to be dead but does not have enough courage to do it himself. Through a hazardous scheme, Mikołaj helps him return to Poland hidden in the suitcase shown at the beginning of the film, which is later stolen by employees at the airport. He returns to working as a hairdresser with his brother (Jerzy Stuhr)." }
+				]
+			}
+		},
+		{
+			"pagina" : {
+				"nombre" : [
+					{ "texto" : "rojo" },
+					{ "texto" : "rouge" },
+					{ "texto" : "red" }
+				],
+				"url" : "rojo",
+				"titulo" : [
+					{ "texto" : "Rojo" },
+					{ "texto" : "Rouge" },
+					{ "texto" : "Red" }
+				],
+				"copy" : [
+					{ "texto" : "La historia se desarrolla en la ciudad de Ginebra, Suiza. El filme comienza con el seguimiento de una llamada telefónica entre Valentine Dussaut, una inocente estudiante universitaria que trabaja de medio tiempo como modelo, y su altamente posesivo novio, Michel. Después de eso, posa en una sesión de fotos publicitaria para una marca de goma de mascar y durante la sesión el fotógrafo le pide que luzca muy triste. Por otro lado, mientras va caminando de vuelta a su casa, Auguste Bruner, vecino de Valentine y estudiante de leyes, deja caer una serie de libros, se da cuenta de que un capítulo especial del Código Penal quedó abierto al azar, y se concentra en ese pasaje. Esa misma noche, mientras conduce en la lluvia, Valentine atropella por accidente a un perro, y al ver que tiene una placa (la cual revela que es una hembra llamada Rita), le sube a su auto y va hasta la casa de su dueño, el juez Joseph Kern, ya retirado pero soltero. Este reacciona con indiferencia y frialdad, y cuando Valentine le pregunta qué debe hacer con Rita, le responde que puede hacer lo que le plazca, y que él no la quiere. Valentine decide llevarla al veterinario, donde descubren que está preñada, y una vez que la curan, se la lleva a su casa." },
+					{ "texto" : "Valentine, jeune mannequin, ramène chez son propriétaire une chienne égarée qu'elle vient de blesser avec sa voiture. Elle y découvre son maître qui vit seul, dans une étrange situation. Il paraît d'allure fort bougonne. Puis, après plusieurs visites, celui qui s'avère être un juge d'instruction à la retraite, lui fait part de ses écoutes téléphoniques illégales des conversations de ses voisins. Après un début difficile, ils finissent par se lier d'amitié. La méfiance s'estompe peu à peu, permettant l'échange de confidences." },
+					{ "texto" : "Valentine Dussault (Irene Jacob) studies at University of Geneva and works as a part-time model. She regularly attends ballet classes. She calls her possessive boyfriend in London and plans to meet him. During her part-time job as a model, she poses for a chewing-gum campaign and the photo selected is one of her looking very sad. While walking back home, Auguste (Jean-Pierre Lorit), a student neighbour of Valentine's, drops his textbooks and one book falls open at a particular chapter of the Criminal Code, which he notes. Driving back to her apartment, Valentine is distracted and accidentally hits a German Shepherd dog. She tracks down the owner, a retired judge, Joseph Kern (Jean-Louis Trintignant), who seems unconcerned. Valentine takes the dog, Rita, to a veterinarian, where she learns that the dog is pregnant. Later, money is delivered to her apartment from an unnamed sender. She overcomes the sexual advances made by the ad company's photographer.|Out for a walk the next day, Rita leads Valentine back to Kern's house. He says she should keep the dog after confirming that he sent the money for the expenses. She returns the extra amount to Kern after meeting the vet's expenses. Valentine hears that Kern is eavesdropping on a male neighbour's sexual telephone conversation with his male lover. She tries to convey to him about respecting the privacy of his neighbour. The judge challenges Valentine to reveal the eavesdropping to the neighbour. She goes to do so but is horrified to see the man's young daughter on the telephone extension, listening to the same conversation. Upon her return, Kern tells her that their actions of telling or not telling, and spying or not spying make no difference to the eventual outcome of other people's lives. As the conversation goes on, Valentine tells that her brother is fathered by someone else other than her biological father. Before leaving, Valentine also hears a conversation between Auguste and his girlfriend, Karin (Frederique Feder), neither of whom she has met. Auguste passes his exam to become a judge and credits his success to the dropped textbook." }
+				]
+			}
+		},
+		{
+			"pagina" : {
+				"nombre" : [
+					{ "texto" : "bio" },
+					{ "texto" : "bio" },
+					{ "texto" : "bio" }
+				],
+				"url" : "bio",
+				"titulo" : [
+					{ "texto" : "Bio" },
+					{ "texto" : "Bio" },
+					{ "texto" : "Bio" }
+				],
+				"copy" : [
+					{ "texto" : "Krzysztof Kieślowski nació en Varsovia el 27 de junio de 1941. Se crió en el seno de una familia de clase modesta. Poco después de finalizar el primer ciclo de estudios, ingresó en la escuela de bomberos pero algunos meses más tarde la abandonó con la intención de volver a estudiar. En 1957, se inscribió en la Escuela de Cine y Teatro de Łódź. Su primera producción cinematográfica estuvo centrada en la vida de los trabajadores y los soldados de su Polonia natal.|A fines de los años 1980, realizó para la televisión una de sus obras más importantes: Decálogo. Esta es una obra basada en la estructura de los Diez Mandamientos con la que Kieślowski tomó la religión para hablar del ser humano y de sus contradicciones morales. Cada capítulo tiene una duración aproximada de una hora.|Tras su paso por la televisión polaca, a principio de los años 1990 comenzó a trabajar en Francia, donde realizó su más importante trabajo, la trilogía Tres Colores, dedicada a la bandera francesa. Tras esto, decidió retirarse del cine aunque comenzó a escribir el guion de La Divina Comedia de Dante, mediante una trilogía titulada Paraíso, Purgatorio e Infierno, para llevarlo a la pantalla. Sin embargo, en 1996, sin concluir este guion, murió de un ataque cardíaco en su ciudad natal." },
+					{ "texto" : "Après des études secondaires, il réussit en 1964, après deux tentatives infructueuses, le concours d'entrée de l'École nationale de cinéma de Łódź1, dont il sort diplômé en 1969.|Il n'aborde pas la fiction, considéré alors comme un mode bourgeois, mais le documentaire, plus en conformité avec le modèle économique de la Pologne de l'époque. Il en réalise une vingtaine, sous forme de courts-métrages, de moyens-métrages ou de documentaires de télévision. Bien intégré dans la société polonaise, il se servira de ses films pour dévoiler les incohérences internes du système. On trouve ainsi généralement dans ses documentaires d'un côté, des individus, riches de leurs forces, de leur détermination et de l'autre la bureaucratie décalée et inopérante par rapport à cette force vive.|Ses choix artistiques sont une réponse personnelle à l'opacité du système, à la propension de ce dernier à faire taire la contestation et à enfermer la société dans un non-dit collectif. « Ce qui m'intéressait en Pologne pendant les années 1970, c'était le monde non représenté. Je voulais décrire ce monde. Vous ne savez pas ce que c'est en France de vivre dans un monde sans représentation »2. Il s'agit donc pour lui de ne montrer que ce qui est autorisé par la censure, mais en accentuant, par le montage, le son, les choix de prise de vue, les aspects de la réalité qui laissent deviner les rouages implicites du système et les sentiments profonds des individus3. La finesse et la force de son regard, la façon dont il le communique au spectateur, malgré les grilles de la censure, font de lui 'un des plus grands documentaristes de l'après guerre'." },
+					{ "texto" : "Kieślowski was born in Warsaw, Poland, the son of Barbara (née Szonert) and Roman Kieślowski.[5] He grew up in several small towns, moving wherever his engineer father, a tuberculosis patient, could find treatment. He was raised Roman Catholic and retained what he called a 'personal and private' relationship with God. At sixteen, he attended a firefighters' training school, but dropped out after three months. Without any career goals, he then entered the College for Theatre Technicians in Warsaw in 1957 because it was run by a relative. He wanted to become a theatre director, but lacked the required bachelor's degree for the theatre department, so he chose to study film as an intermediate step.|Leaving college and working as a theatrical tailor, Kieślowski applied to the Łódź Film School, which has Roman Polanski and Andrzej Wajda among its alumni. He was rejected twice. To avoid compulsory military service during this time, he briefly became an art student, and also went on a drastic diet to make himself medically unfit for service. After several months of avoiding the draft, he was accepted to the school on his third attempt. He attended Łódź Film School from 1964 to 1968, a period with a relatively high degree of artistic freedom. Kieślowski lost his interest in theatre and decided to make documentary films." }
+				]
+			}
+		}
+	]
+}

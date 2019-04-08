@@ -1,0 +1,25 @@
+<?php
+//ejemplo de declaracion de un array
+    $estudiantes=array();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="UTF-8">
+	<title>
+	</title>
+	</head>
+<body>
+	<?php if(count($estudiantes)>0){;?>
+		<ul>
+		<?php for($i=0;$i<count($estudiantes);$i++){?>
+			<li>
+			<?php echo $estudiantes[$i];?>
+			</li>
+			<?php };?>
+		</ul>
+	<?php }else{?>
+	<p> No hay estudiantes que mostrar</p>
+	<?php };?>
+</body>
+</html>

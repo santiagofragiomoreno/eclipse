@@ -1,0 +1,14 @@
+<?php
+///////////////////////7 bucle while /////////
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta  charset="UTF-8">
+<title></title>
+</head>
+<body>
+	<?php $x=0;?>
+</body>
+</html>

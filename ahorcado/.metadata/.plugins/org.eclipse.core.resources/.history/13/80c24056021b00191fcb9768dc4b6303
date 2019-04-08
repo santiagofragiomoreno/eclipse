@@ -1,0 +1,57 @@
+/**
+ * En este archivo incluiremos todas
+ * la funcionalidades del ahorcado, apoyandonos
+ * en lo que hemos aprendido de JavaScript
+ */
+
+ /*
+   Declaramos la funcion de Ajax para la lectura del Objeto Palabras
+ */
+window.onload = function(){
+    //creamos el REQUEST (conexion)
+			var conexion = new XMLHttpRequest();
+			conexion.onreadystatechange=function(){
+				if(this.readyState == 4 && this.status == 200){
+                    
+					//y si lo queremos imprimir como un objeto deirectamente (obbtenemos un array de palabras)
+					console.log(JSON.parse(this.responseText));
+					var palabra = JSON.parse(this.responseText);
+					console.log("en JSON palabras tenemos:");
+                    console.log(palabra);
+       
+                    var numero_palabras = palabra.palabras.length;
+                    console.log("numero de palabras que tenemos:");
+                    console.log(numero_palabras);
+
+                    //console.log(palabras.palabras[2]);
+                    console.log("indice aleatorio del array palabras");
+                    var indice = Math.floor(Math.random()*numero_palabras);
+                    console.log(indice);
+                    //palabra aleatoria obtenida arriba
+                    console.log(palabras.palabras[indice]);
+                    //numero de caracteres de la palabra aleatoria
+                    console.log(palabras.palabras[indice].length);
+                    //convertimos la palabra a un array de sus caracteres
+                    var array_caracteres = palabras.palabras[indice].split('');
+
+                    console.log(array_caracteres);
+
+                    var p = document.getElementsByClassName("parrafo")[0];
+                    //p.innerHTML = " "+palabras.palabras[palabra]+" "+palabras.palabras[palabra].length;
+
+                    for(var i=0;i<palabras.palabras[indice].length;i++){
+
+                    	console.log(array_caracteres[i]);
+
+                    	var p = document.createElement("p");                       
+                        var t = document.createTextNode(" "+ array_caracteres[i]);       
+                        p.appendChild(t); 
+                        document.body.appendChild(p);                                         
+                    }
+
+				}
+			}
+			//abrimos la conexion
+			conexion.open("GET","palabras.json",true);
+			conexion.send();
+		}

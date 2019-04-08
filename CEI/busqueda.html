@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<ul class="contenedor">
+	</ul>
+	<script type="text/javascript">
+		window.onload = function(){
+			var lista = document.getElementsByClassName("contenedor")[0];
+			var conexion = new XMLHttpRequest();
+			conexion.onreadystatechange = function(){
+				if(this.readyState == 4 && this.status == 200){
+					//para ver lo que nos llega en el responseText 
+					//console.log(this.responseText);
+					var datos = JSON.parse(this.responseText);
+					console.log(datos);
+					for(var i=0;i<datos.length;i++){
+						var item = document.createElement("li");
+						//añadimos el nombre y el apellido del obejto[0] del array que nos ha lledado
+						// del JSON como texto al <li> que hemos creado
+						item.innerHTML = datos[i].nombre+" "+datos[i].apellido;
+						// le añadimos como nodo hijo del UL el <li>
+						lista.appendChild(item);
+					}
+				}
+			}
+			conexion.open("GET","busqueda_estudiantes.php");
+			conexion.send();
+		}
+	</script>
+</body>
+</html>

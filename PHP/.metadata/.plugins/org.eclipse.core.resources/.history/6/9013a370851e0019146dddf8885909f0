@@ -1,0 +1,18 @@
+<?php
+///////////////////////7 bucle while /////////
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta  charset="UTF-8">
+<title></title>
+</head>
+<body>
+	<?php $x=0;?>
+	<?php while($x<7){?>
+	<p><?php echo $x + 1;?></p>
+	<?php $x++;?>
+	<?php };?>
+</body>
+</html>

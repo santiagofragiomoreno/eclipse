@@ -1,0 +1,17 @@
+<?php
+$nombre='Santi Fragio';
+///////// funcion strlen() //////////
+/*
+ * nos cuenta los caracteres de un string (incluyendo los espacios en blanco9
+ */
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta  charset="UTF-8">
+<title></title>
+</head>
+<body>
+	<p><?php echo strlen($nombre);?></p>
+</body>
+</html>

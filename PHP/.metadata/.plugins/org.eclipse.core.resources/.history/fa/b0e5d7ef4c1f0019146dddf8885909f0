@@ -1,0 +1,6 @@
+<?php
+$palabra = $_GET['palabra'];
+
+$palabra = str_split($palabra);
+print_r ($palabra);
+?>

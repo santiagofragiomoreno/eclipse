@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="#" class="boton">Enlace AJAX</a>
+	<script>
+	window.onload = function(){
+		var boton = document.getElementsByClassName("boton")[0];
+		boton.onclick = function(evento){
+			evento.preventDefault();
+			//creamos la conexion AJAX
+			var conexion = new XMLHttpRequest();
+			//creamos el HANDLER 
+			//estados de ajax----ready state(estados de la conexion)
+			conexion.onreadystatechange = function(){
+				if(this.readyState == 4 && this.status == 200){
+					console.log(this.responseText);
+				}
+			}
+			//abrimos la conexion
+			conexion.open("GET","ajax_2.php?A=8");
+			conexion.send();
+		}
+	}
+	</script>
+</body>
+</html>

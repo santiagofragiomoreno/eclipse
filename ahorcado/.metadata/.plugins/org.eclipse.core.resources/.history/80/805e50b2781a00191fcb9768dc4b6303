@@ -1,0 +1,22 @@
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Juego del Ahorcado</title>
+ </head>
+ <body>
+   <div class="contenedor_principal">
+        <div class="contenedor_letras">
+
+        </div> 
+         <div class="contenedor_dibujo">
+
+        </div>  
+        <div class="contenedor_teclado">
+
+        </div>  
+        <div class="palabra_escondida">
+
+        </div>  
+   </div>
+ </body>
+</html>

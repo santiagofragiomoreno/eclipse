@@ -1,0 +1,19 @@
+<?php
+
+$a=1;
+$b=1;
+$iteracion = 15;
+$aux;
+for ($i=0;$i<$iteracion;$i++){
+     
+    if($i<2){
+        $i++;
+    }
+    else{
+        $i = $a-1+$a-2;
+    }
+    
+    echo $i;
+};
+
+?>

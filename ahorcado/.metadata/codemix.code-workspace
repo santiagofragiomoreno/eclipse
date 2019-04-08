@@ -1,0 +1,28 @@
+{
+"folders": [
+    {
+        "path": "C:\\xampp\\htdocs\\ahorcado\\ahorcado"
+    },
+    {
+        "path": "C:\\xampp\\htdocs\\ahorcado\\Ahorcado2.0"
+    },
+    {
+        "path": "C:\\xampp\\htdocs\\ahorcado\\bootstrap4"
+    }
+],
+  "settings": {
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "editor.detectIndentation": false,
+    "htmlhint.options": {
+      "attr-value-double-quotes": true,
+      "attr-no-duplication": true,
+      "tag-pair": true,
+      "spec-char-escape": true,
+      "id-unique": false,
+      "src-not-empty": true,
+      "title-require": true
+    }
+  }
+}

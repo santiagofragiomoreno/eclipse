@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor_principal{
+    width:48%;
+    height: 500px;
+    margin:100px auto;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #f5daa3;
+}
+.contenedor_letras{
+    width:47%;
+    height: 200px;
+    margin:2px 2px;
+    border: 1px solid #000000;
+    float: left;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.contenedor_dibujo{
+    width:47%;
+    height: 200px;
+    margin:2px 2px;
+    border: 1px solid #000000;
+    float: right;
+    border-radius: 10px;
+    background-color: #fffffe;
+}
+.contenedor_teclado{
+    width:47%;
+    height: 288px;
+    margin:2px 2px;
+    border: 1px solid #000000;
+    float: left;
+    border-radius: 10px;
+}
+.letra{
+	width: 42px;
+    height: 32px;
+    margin: 7px;
+    border-radius: 50px;
+}
+.letra:hover{
+    background-color: #c0f6fd;
+}
+.palabra_escondida{
+    width:50%;
+    height: 50px;
+    margin:2px 5px;
+    border: 1px solid #000000;
+    float: right;
+    border-radius: 10px;
+}
+.letra_escondida{
+	float:left;
+	border:1px solid #000;
+	width:21px;
+	height:26px;
+	margin:4px;
+	text-align:center;	
+}
+.espacio_letra{
+	float:left;
+	border:1px solid #000;
+	width:21px;
+	height:20px;
+	margin:1px;
+	text-align:center;
+}

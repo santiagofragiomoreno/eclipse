@@ -1,0 +1,50 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+	.contenedor{
+		width: 500px;
+		margin: 50px auto 0;		
+	}
+
+	.items, .filtros{
+		padding: 20px;
+		width: calc(50% - 40px);
+		float: left;
+	}
+
+	.items ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.items ul li{
+		text-align: center;
+		padding: 5px 0;
+		display: none;
+	}
+
+	.items ul li.visible{
+		display: block;
+	}
+
+	.filtro{
+		display: block;
+		background-color: #069;
+		width: 100px;
+		color: #fff;
+		text-decoration: none;
+		padding: 10px 0;
+		margin: 10px auto 0;
+		text-align: center;
+	}
+
+
+
+
+
+

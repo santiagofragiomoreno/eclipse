@@ -1,0 +1,15 @@
+<?php
+//ejemplo de declaracion de un array
+    $estudiantes=array('Alvaro','Santi','María');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="UTF-8">
+	<title>
+	</title>
+	</head>
+<body>
+	<p><?php ?></p>
+</body>
+</html>

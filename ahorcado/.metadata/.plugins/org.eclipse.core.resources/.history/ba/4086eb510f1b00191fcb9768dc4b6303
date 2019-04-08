@@ -1,0 +1,75 @@
+/**
+ * En este archivo incluiremos todas
+ * la funcionalidades del ahorcado, apoyandonos
+ * en lo que hemos aprendido de JavaScript
+ */
+
+ /*
+  * Declaramos la funcion de Ajax para la lectura del Objeto Palabras
+  */
+ function Ajax(letras_teclado){
+    //creamos el REQUEST (conexion)
+	var conexion = new XMLHttpRequest();
+	conexion.onreadystatechange=function(){
+	    if(this.readyState == 4 && this.status == 200){ 
+            //almacenamos el OBJETO en la variable palabras y despues el array de palabras del JSON lo almacenamos
+            //en la variable array_palabras
+		    var palabras = JSON.parse(this.responseText);
+            var array_palabras = palabras.palabras;
+            var numero_palabras = palabras.palabras.length;
+                    
+            //indice aleatorio para sacar una palabra al azar y la palabra aleatoria
+            var indice_aleatorio = Math.floor(Math.random()*numero_palabras);
+            var palabra_aleatoria = array_palabras[indice_aleatorio];
+        
+            //numero de caracteres de la palabra aleatoria
+            var num_letras_palabra = palabra_aleatoria.length;
+        
+            //convertimos la palabra a un array de sus caracteres
+            var array_caracteres_palabra_aleatoria = palabra_aleatoria.split('');
+        
+            //clausura para las letras pulsadas
+            letra_pulsada(letras_teclado,palabra_aleatoria);
+                     /*
+                    var p = document.getElementsByClassName("parrafo")[0];
+                    //p.innerHTML = " "+palabras.palabras[palabra]+" "+palabras.palabras[palabra].length;
+
+                    for(var i=0;i<palabras.palabras[indice].length;i++){
+
+                    	console.log(array_caracteres[i]);
+
+                    	var p = document.createElement("p");                       
+                        var t = document.createTextNode(" "+ array_caracteres[i]);       
+                        p.appendChild(t); 
+                        document.body.appendChild(p);                                         
+                    }*/
+
+		}
+	}
+	//abrimos la conexion
+	conexion.open("GET","palabras.json",true);
+	conexion.send();
+ };
+
+ /*
+    *funcion para la letra pulsada
+  */
+ function letra_pulsada(letras_teclado,palabra_aleatoria){
+    for(var i=0;i<letras_teclado.length;i++){
+        (function(indice){
+            letras_teclado[indice].onclick = function(evento){
+                evento.preventDefault();
+                var letra_pulsada = letras_teclado[indice].innerHTML;
+                busca_letra(letra_pulsada,palabra_aleatoria);
+            }
+        })(i);
+    }
+ }
+ /*
+  * "programa" principal donde iremos llamando a las funciones
+  */
+window.onload = function(){
+    var letras_teclado = document.getElementsByClassName("letra");
+    console.log(letras_teclado);
+    Ajax(letras_teclado);
+		}

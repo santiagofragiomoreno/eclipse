@@ -1,0 +1,22 @@
+<?php
+
+$fibonacci = array();
+$iteracion = 15;
+$inicio = 1;
+$fibonacci[0]=$inicio;
+$fibonacci[1]=$inicio;
+
+for($i=0; $i<$iteracion;$i++){
+    
+    if($i<2){
+        echo $fibonacci[$i];
+        echo ' ';
+    }
+    else{
+        $fibonacci[$i]=$fibonacci[$i-1]+$fibonacci[$i-2];
+        echo $fibonacci[$i];
+        echo ' ';
+    }   
+}
+
+?>
